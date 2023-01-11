@@ -45,33 +45,33 @@ const OurService = () => {
 
 
 
-                    <div>
-                        <div className='flex gap-3 items-center my-5 shadow-md rounded-sm shadow-gray-400 py-3 px-4'>
+                    <div >
+                        <div className='flex gap-3 items-center my-5 shadow-md rounded-sm shadow-gray-400 py-3 px-4 hover:bg-[#4EDB87] hover:text-white '>
                             <CgMenuGridR /> <p className='text-md font-semibold'>Responsive Design</p>
                         </div>
-                        <div className='flex gap-3 items-center my-5 shadow-md rounded-sm shadow-gray-400 py-3 px-4'>
+                        <div className='flex gap-3 items-center my-5 shadow-md rounded-sm shadow-gray-400 py-3 px-4 hover:bg-[#4EDB87] hover:text-white '>
                             <IoIosPhonePortrait /> <p className='text-md font-semibold'>Android Apps Development</p>
                         </div>
-                        <div className='flex gap-3 items-center my-5 shadow-md rounded-sm shadow-gray-400 py-3 px-4'>
+                        <div className='flex gap-3 items-center my-5 shadow-md rounded-sm shadow-gray-400 py-3 px-4 hover:bg-[#4EDB87] hover:text-white '>
                             <IoIosPhonePortrait /> <p className='text-md font-semibold'>iOS Apps Development</p>
                         </div>
-                        <div className='flex gap-3 items-center my-5 shadow-md rounded-sm shadow-gray-400 py-3 px-4'>
+                        <div className='flex gap-3 items-center my-5 shadow-md rounded-sm shadow-gray-400 py-3 px-4 hover:bg-[#4EDB87] hover:text-white '>
                             <BsFillCartCheckFill /> <p className='text-md font-semibold'>E-Commerce Development</p>
                         </div>
                         
                     </div>
 
                     <div>
-                        <div className='flex gap-3 items-center my-5 shadow-md rounded-sm shadow-gray-400 py-3 px-4'>
+                        <div className='flex gap-3 items-center my-5 shadow-md rounded-sm shadow-gray-400 py-3 px-4 hover:bg-[#4EDB87] hover:text-white '>
                             <HiOutlineCodeBracket /> <p className='text-md font-semibold'>React Web Development</p>
                         </div>
-                        <div className='flex gap-3 items-center my-5 shadow-md rounded-sm shadow-gray-400 py-3 px-4'>
+                        <div className='flex gap-3 items-center my-5 shadow-md rounded-sm shadow-gray-400 py-3 px-4 hover:bg-[#4EDB87] hover:text-white '>
                             <HiOutlineCodeBracket /> <p className='text-md font-semibold'>Laravel Web Development</p>
                         </div>
-                        <div className='flex gap-3 items-center my-5 shadow-md rounded-sm shadow-gray-400 py-3 px-4'>
+                        <div className='flex gap-3 items-center my-5 shadow-md rounded-sm shadow-gray-400 py-3 px-4 hover:bg-[#4EDB87] hover:text-white '>
                             <TfiDropbox /> <p className='text-md font-semibold'>UI/UX Design</p>
                         </div>
-                        <div className='flex gap-3 items-center my-5 shadow-md rounded-sm shadow-gray-400 py-3 px-4'>
+                        <div className='flex gap-3 items-center my-5 shadow-md rounded-sm shadow-gray-400 py-3 px-4 hover:bg-[#4EDB87] hover:text-white '>
                             <AiFillPrinter /> <p className='text-md font-semibold'>Print Ready Design</p>
                         </div>
                     </div>

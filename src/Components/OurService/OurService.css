@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-.custom-font{
+.custom-font {
     font-family: 'Poppins', sans-serif;
 }
 
-.ball{
+.ball {
     position: relative;
     animation: mymove 3s infinite;
-    
-    
+
+
 }
 
 @keyframes mymove {
@@ -21,6 +21,18 @@
     }
 }
 
+.bg-hov{
+    position:relative;
+    transition: .5s;
+
+
+}
+
+.bg-hov:hover{
+    
+    margin-top: 5px;
+    
+}
 /* .App-logo {
     height: 40vmin;
     pointer-events: none;
