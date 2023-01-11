@@ -6,6 +6,10 @@ import background from '../../../src/assets/bgimg.png'
 
 import { CgMenuGridR } from 'react-icons/cg';
 import { IoIosPhonePortrait } from 'react-icons/io';
+import { BsFillCartCheckFill } from 'react-icons/bs';
+import { HiOutlineCodeBracket } from 'react-icons/hi2';
+import { TfiDropbox } from 'react-icons/tfi';
+import { AiFillPrinter } from 'react-icons/ai';
 
 const OurService = () => {
 
@@ -36,7 +40,7 @@ const OurService = () => {
                 </div>
                 <p className='bg-[#C478E4] p-2 rounded-full w-2 -mt-3 ball'></p>
 
-                <p className='mt-5'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos in dolorem impedit accusamus assumenda sunt cumque repellat eligendi animi veniam.</p>
+                <p className='mt-5'> Software is a set of instructions, data or programs used to operate computers and execute specific tasks. It is the opposite of hardware, which describes</p>
                 <div className='grid grid-cols-1 md:grid-cols-2 md:gap-8 mt-8'>
 
 
@@ -49,26 +53,26 @@ const OurService = () => {
                             <IoIosPhonePortrait /> <p className='text-md font-semibold'>Android Apps Development</p>
                         </div>
                         <div className='flex gap-3 items-center my-5 shadow-md rounded-sm shadow-gray-400 py-3 px-4'>
-                            <CgMenuGridR /> <p className='text-md font-semibold'>Responsive Design</p>
+                            <IoIosPhonePortrait /> <p className='text-md font-semibold'>iOS Apps Development</p>
                         </div>
                         <div className='flex gap-3 items-center my-5 shadow-md rounded-sm shadow-gray-400 py-3 px-4'>
-                            <CgMenuGridR /> <p className='text-md font-semibold'>Responsive Design</p>
+                            <BsFillCartCheckFill /> <p className='text-md font-semibold'>E-Commerce Development</p>
                         </div>
                         
                     </div>
 
                     <div>
                         <div className='flex gap-3 items-center my-5 shadow-md rounded-sm shadow-gray-400 py-3 px-4'>
-                            <CgMenuGridR /> <p className='text-md font-semibold'>Responsive Design</p>
+                            <HiOutlineCodeBracket /> <p className='text-md font-semibold'>React Web Development</p>
                         </div>
                         <div className='flex gap-3 items-center my-5 shadow-md rounded-sm shadow-gray-400 py-3 px-4'>
-                            <CgMenuGridR /> <p className='text-md font-semibold'>Responsive Design</p>
+                            <HiOutlineCodeBracket /> <p className='text-md font-semibold'>Laravel Web Development</p>
                         </div>
                         <div className='flex gap-3 items-center my-5 shadow-md rounded-sm shadow-gray-400 py-3 px-4'>
-                            <CgMenuGridR /> <p className='text-md font-semibold'>Responsive Design</p>
+                            <TfiDropbox /> <p className='text-md font-semibold'>UI/UX Design</p>
                         </div>
                         <div className='flex gap-3 items-center my-5 shadow-md rounded-sm shadow-gray-400 py-3 px-4'>
-                            <CgMenuGridR /> <p className='text-md font-semibold'>Responsive Design</p>
+                            <AiFillPrinter /> <p className='text-md font-semibold'>Print Ready Design</p>
                         </div>
                     </div>
 
