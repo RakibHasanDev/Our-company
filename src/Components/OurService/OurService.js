@@ -15,11 +15,44 @@ const OurService = () => {
 
     const servicers = [
         {
-            icon: { CgMenuGridR },
+            icon:  <CgMenuGridR />,
             name: "Responsive Design"
         },
+        {
+            icon:  <CgMenuGridR />,
+            name: "Android Apps Development"
+        },
+        {
+            icon: <IoIosPhonePortrait />,
+            name: "iOS Apps Development"
+        },
+        {
+            icon: <BsFillCartCheckFill />,
+            name: ">E-Commerce Development"
+        },
        
- ]
+    ]
+
+    const anotherServices = [
+        {
+            icon: <HiOutlineCodeBracket />,
+            name: "React Web Development"
+        },
+        {
+            icon: <HiOutlineCodeBracket />,
+            name: "Laravel Web Development"
+        },
+        {
+            icon: <TfiDropbox />,
+            name: "UI/UX Design"
+        },
+        {
+            icon: <AiFillPrinter />,
+            name: "Print Ready Design"
+        },
+    ]
+    
+    
 
     return (
         <div className='grid grid-cols-1 lg:grid-cols-2 w-[95%] mx-auto gap-6 my-10 '>
@@ -45,35 +78,29 @@ const OurService = () => {
 
 
 
-                    <div >
-                        <div className='flex gap-3 items-center my-5 shadow-md rounded-sm shadow-gray-400 py-3 px-4 hover:bg-[#4EDB87] hover:text-white bg-hov'>
-                            <CgMenuGridR /> <p className='text-md font-semibold'>Responsive Design</p>
-                        </div>
-                        <div className='flex gap-3 items-center my-5 shadow-md rounded-sm shadow-gray-400 py-3 px-4 hover:bg-[#4EDB87] hover:text-white bg-hov'>
-                            <IoIosPhonePortrait /> <p className='text-md font-semibold'>Android Apps Development</p>
-                        </div>
-                        <div className='flex gap-3 items-center my-5 shadow-md rounded-sm shadow-gray-400 py-3 px-4 hover:bg-[#4EDB87] hover:text-white bg-hov'>
-                            <IoIosPhonePortrait /> <p className='text-md font-semibold'>iOS Apps Development</p>
-                        </div>
-                        <div className='flex gap-3 items-center my-5 shadow-md rounded-sm shadow-gray-400 py-3 px-4 hover:bg-[#4EDB87] hover:text-white bg-hov'>
-                            <BsFillCartCheckFill /> <p className='text-md font-semibold'>E-Commerce Development</p>
-                        </div>
+                    <div className='parent-div mb-5'>
                         
+                        {
+                            servicers.map((service,index)=> <div
+                                
+                                key={index}
+                                className='flex gap-3 items-center  shadow-md rounded-sm shadow-gray-400 py-3 px-4 hover:bg-[#4EDB87] hover:text-white bg-hov '>
+                                {service.icon} <p className='text-md font-semibold'>{ service.name}</p>
+                            </div>)
+                        }
                     </div>
 
-                    <div>
-                        <div className='flex gap-3 items-center my-5 shadow-md rounded-sm shadow-gray-400 py-3 px-4 hover:bg-[#4EDB87] hover:text-white bg-hov'>
-                            <HiOutlineCodeBracket /> <p className='text-md font-semibold'>React Web Development</p>
-                        </div>
-                        <div className='flex gap-3 items-center my-5 shadow-md rounded-sm bg-hovshadow-gray-400 py-3 px-4 hover:bg-[#4EDB87] hover:text-white '>
-                            <HiOutlineCodeBracket /> <p className='text-md font-semibold'>Laravel Web Development</p>
-                        </div>
-                        <div className='flex gap-3 items-center my-5 shadow-md rounded-sm shadow-gray-400 py-3 px-4 hover:bg-[#4EDB87] hover:text-white bg-hov'>
-                            <TfiDropbox /> <p className='text-md font-semibold'>UI/UX Design</p>
-                        </div>
-                        <div className='flex gap-3 items-center my-5 shadow-md rounded-sm shadow-gray-400 py-3 px-4 hover:bg-[#4EDB87] hover:text-white bg-hov'>
-                            <AiFillPrinter /> <p className='text-md font-semibold'>Print Ready Design</p>
-                        </div>
+                    <div className='parent-div mb-5'>
+                        {
+                            anotherServices.map((another, index) => <div
+
+                                key={index}
+                                className='flex gap-3 items-center  shadow-md rounded-sm shadow-gray-400 py-3 px-4 hover:bg-[#4EDB87] hover:text-white bg-hov '>
+                                {another.icon} <p className='text-md font-semibold'>{another.name}</p>
+                            </div>)
+
+                        }
+                        
                     </div>
 
 

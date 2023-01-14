@@ -17,7 +17,7 @@
 }
 
 .bg-hov{
-    position: relative;
+    /* position: relative; */
     transition: 1s;
 
 
@@ -25,9 +25,21 @@
 
 .bg-hov:hover{
 
- margin-bottom: 10px ;
+ transform:translateY(-7px) ;
+
  z-index: 2;
    
+}
+
+
+.parent-div{
+row-gap: 25px ;
+width: 100%;
+display: flex;
+flex-direction: column;
+
+
+
 }
 /* .App-logo {
     height: 40vmin;
