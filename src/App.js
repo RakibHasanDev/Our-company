@@ -4,7 +4,7 @@ import OurService from './Components/OurService/OurService';
 
 function App() {
   return (
-    <div >
+    <div className='bg-[#F7FAFD]'>
      <OurService></OurService>
     </div>
   );

@@ -28,7 +28,7 @@ const OurService = () => {
         },
         {
             icon: <BsFillCartCheckFill />,
-            name: ">E-Commerce Development"
+            name: "E-Commerce Development"
         },
        
     ]
@@ -55,23 +55,23 @@ const OurService = () => {
     
 
     return (
-        <div className='grid grid-cols-1 lg:grid-cols-2 w-[95%] mx-auto gap-6 my-10 '>
+        <div className='grid grid-cols-1 lg:grid-cols-2 w-[95%] mx-auto gap-6 my-10 items-center '>
 
-            <div className='relative'>
-                <div>
-                    <img src={background} alt="" className='lg:w-full mx-auto md:h-[100vh] h-[70vh] ' />
+            <div className='relative custom-hidden ' >
+                <div className='custom-circle '>
+                    <img src={background} alt="" className='w-full md:w-[85%] mx-auto ' />
                 </div>
-                <div className='absolute md:top-5 top-2'>
-                    <img src={coverPhoto} alt="" className='w-[75%] md:w-[85%] mx-auto lg:h-[80vh] h-[60vh] ' />
+                <div className='absolute top-[10%] left-[7%] bottom-[20%] right-[10%]  '>
+                    <img src={coverPhoto} alt="" className=' w-[80%]  custom-margin ' />
                 </div>
             </div>
 
             <div className='mt-16 w-[95%] mx-auto'>
                 <h1 className='font-bold text-xl lg:text-3xl custom-font text-gray-600'>What Our Software Can Do For You</h1>
 
-                <div className='px-10 py-1 rounded-md bg-[#F7E1F7] w-[20%] mt-7 '>
+                <div className='px-10 py-1 rounded-md bg-[#CDF1D8] w-[20%] mt-7 '>
                 </div>
-                <p className='bg-[#C478E4] p-2 rounded-full w-2 -mt-3 ball'></p>
+                <p className='bg-[#4EDB87] p-2 rounded-full w-2 -mt-3 ball'></p>
 
                 <p className='mt-5'> Software is a set of instructions, data or programs used to operate computers and execute specific tasks. It is the opposite of hardware, which describes</p>
                 <div className='grid grid-cols-1 md:grid-cols-2 md:gap-8 mt-8'>
@@ -84,7 +84,7 @@ const OurService = () => {
                             servicers.map((service,index)=> <div
                                 
                                 key={index}
-                                className='flex gap-3 items-center  shadow-md rounded-sm shadow-gray-400 py-3 px-4 hover:bg-[#4EDB87] hover:text-white bg-hov '>
+                                className='flex gap-3 items-center  custom-shadow rounded-sm py-3 px-4 hover:bg-[#4EDB87] hover:text-white bg-hov '>
                                 {service.icon} <p className='text-md font-semibold'>{ service.name}</p>
                             </div>)
                         }
@@ -95,7 +95,7 @@ const OurService = () => {
                             anotherServices.map((another, index) => <div
 
                                 key={index}
-                                className='flex gap-3 items-center  shadow-md rounded-sm shadow-gray-400 py-3 px-4 hover:bg-[#4EDB87] hover:text-white bg-hov '>
+                                className='flex gap-3 items-center custom-shadow rounded-sm  py-3 px-4 hover:bg-[#4EDB87] hover:text-white bg-hov '>
                                 {another.icon} <p className='text-md font-semibold'>{another.name}</p>
                             </div>)
 
