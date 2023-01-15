@@ -19,7 +19,7 @@ const OurService = () => {
             name: "Responsive Design"
         },
         {
-            icon:  <CgMenuGridR />,
+            icon:  < IoIosPhonePortrait />,
             name: "Android Apps Development"
         },
         {
